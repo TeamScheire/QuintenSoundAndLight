@@ -26,7 +26,8 @@ Om de intensiteit van het rode, groene en blauwe kanaal van de LEDstrip aan te s
 ![finished ProtoShield](./images/IMG_20180923_103533944.jpg "ProtoShield")
 Dit is mijn afgewerkte schakeling op het ProtoShield. Ik gebruikte draadkleuren die representatief zijn voor hun functionaliteit, en schroefklemmen om het verbinden van de overige componenten die op de behuizing gemonteerd worden gemakkelijker te maken.
 ![Frontplate back](./images/IMG_20180923_103556235.jpg "Frontplate back")
-Ik heb voor dit project een oude behuizing hergebruikt. De voor- en achterkant van deze behuizing heb ik uitgetekend in CAD-software (FreeCAD), en aangepast voor deze toepassing. Ik heb deze met een lasersnijder laten graveren en uitsnijden. Hierboven de achterkant van mijn voorplaat, met daarop de bedraadde potentiometers
+Ik heb voor dit project een oude behuizing hergebruikt. De voor- en achterkant van deze behuizing heb ik uitgetekend in CAD-software (FreeCAD), en aangepast voor deze toepassing. Ik heb deze met een lasersnijder laten graveren en uitsnijden. Hierboven de achterkant van mijn voorplaat, met daarop de bedraadde potentiometers.
+![finished no enclosure](./images/IMG_20180923_113357060.jpg "no enclosure")
 ## Software
 Het programma van de Arduino moet continu (loop) de waarde van de draaiknoppen inlezen (analogRead), en de intensiteit van de verschillende kleuren van de LEDstrip herberekenen en hieraan aanpassen (analogWrite). Het doet dit enkele keren per seconde (delay) zodat wanneer we aan een draaiknop draaien de intensiteit van de bijhorende kleur gelijkmatig bijgeregeld wordt.
 
