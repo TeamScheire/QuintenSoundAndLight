@@ -1,3 +1,15 @@
+/*
+ * RGB LEDstrip controller
+ * 
+ * Een programma dat 4 potentiometers inleest en 3 PWM
+ * kanalen aanstuurt. Bedoeld om een RGB LEDstrip te bedienen
+ * doormiddel van draaiknoppen.
+ * 
+ * Auteurs: Tim De Vliegher & Tom Santens
+ * 
+ * Deze code is vrij te gebruiken en naar eigen wens aan te passen.
+ */
+
 const int REDpin = 3;
 const int GREENpin = 5;
 const int BLUEpin = 6;
