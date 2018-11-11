@@ -9,8 +9,8 @@ Deze RGB LEDstrip controller maakt het mogelijk om de intensiteit van verschille
 * 4x 4k7 potentiometer (panel mount) + knoppen
 * 12V LEDstrip (met common anode)
 * Elektriciteitsdraad (liefst rood, groen, blauw, wit en zwart)
-* 12V adapter 
-** Optioneel **
+* 12V DC adapter
+**Optioneel**
 * behuizing
 * 6x schroefconnectoren (2-way)
 * Molex connector (panel mount) 4-way
