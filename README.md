@@ -10,6 +10,7 @@ Deze RGB LEDstrip controller maakt het mogelijk om de intensiteit van verschille
 * 12V LEDstrip (met common anode)
 * Elektriciteitsdraad (liefst rood, groen, blauw, wit en zwart)
 * 12V DC adapter
+
 **Optioneel**
 * behuizing
 * 6x schroefconnectoren (2-way)
