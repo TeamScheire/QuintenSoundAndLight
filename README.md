@@ -5,12 +5,16 @@ Deze RGB LEDstrip controller maakt het mogelijk om de intensiteit van verschille
 * Arduino Uno Rev. 3 (of compatibel)
 * Arduino Uno ProtoShield
 * 3x 2K2 weerstanden
-* 3x TIP 120 (NPN transistor)
+* 3x TIP120 (NPN transistor)
 * 4x 4k7 potentiometer (panel mount) + knoppen
 * 12V LEDstrip (met common anode)
 * Elektriciteitsdraad (liefst rood, groen, blauw, wit en zwart)
-* 12V adapter
-
+* 12V adapter 
+** Optioneel **
+* behuizing
+* 6x schroefconnectoren (2-way)
+* Molex connector (panel mount) 4-way
+* 12V Barrel jack connector (panel mount)
 ## Hardware
 ![elektronisch schema](./images/schema3.png "schema")
 ### Inputs - inlezen draaiknoppen
@@ -21,7 +25,9 @@ Om de intensiteit van het rode, groene en blauwe kanaal van de LEDstrip aan te s
 ![finished ProtoShield](./images/IMG_20180923_103533944.jpg "ProtoShield")
 Dit is mijn afgewerkte schakeling op het ProtoShield. Ik gebruikte draadkleuren die representatief zijn voor hun functionaliteit, en schroefklemmen om het verbinden van de overige componenten die op de behuizing gemonteerd worden gemakkelijker te maken.
 ![Frontplate back](./images/IMG_20180923_103556235.jpg "Frontplate back")
-Ik heb voor dit project een oude behuizing hergebruikt. De voor- en achterkant van deze behuizing heb ik uitgetekend in CAD-software (FreeCAD), en aangepast voor deze toepassing. Ik heb deze met een lasersnijder laten graveren en uitsnijden. Hieronder de achterkant van mijn voorplaat, met daarop de bedraadde potentiometers
+Ik heb voor dit project een oude behuizing hergebruikt. De voor- en achterkant van deze behuizing heb ik uitgetekend in CAD-software (FreeCAD), en aangepast voor deze toepassing. Ik heb deze met een lasersnijder laten graveren en uitsnijden. Hierboven de achterkant van mijn voorplaat, met daarop de bedraadde potentiometers
 ## Software
 Het programma van de Arduino moet continu (loop) de waarde van de draaiknoppen inlezen (analogRead), en de intensiteit van de verschillende kleuren van de LEDstrip herberekenen en hieraan aanpassen (analogWrite). Het doet dit enkele keren per seconde (delay) zodat wanneer we aan een draaiknop draaien de intensiteit van de bijhorende kleur gelijkmatig bijgeregeld wordt.
 
+# Audio
+Quinten's prikkel-gecontroleerde ruimte heeft de mogelijkheid om via bluetooth een geluidsbron (vb. een IPad) aan te sluiten. We deden dit doormiddel van een Bluetooth audio adapter, verbonden met een audioversterker (MAX9744) en luidsprekers.
