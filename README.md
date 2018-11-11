@@ -4,6 +4,7 @@ Deze RGB LEDstrip controller maakt het mogelijk om de intensiteit van verschille
 ## Materiaallijst
 * Arduino Uno Rev. 3 (of compatibel)
 * Arduino Uno ProtoShield
+* 3x 2K2 weerstanden
 * 3x TIP 120 (NPN transistor)
 * 4x 4k7 potentiometer (panel mount) + knoppen
 * 12V LEDstrip (met common anode)
@@ -12,6 +13,7 @@ Deze RGB LEDstrip controller maakt het mogelijk om de intensiteit van verschille
 
 ## Hardware
 ToDo foto schema
+![elektronisch schema](./images/schema3.png "schema")
 ### Inputs - inlezen draaiknoppen
 Om de intensiteit van de verschillende kleuren in te stellen gebruiken we potentiometers. Over de statische weerstand van de potentiometer zetten we 5V. De lopers van de potentiometers verbinden we met de analoge ingangen van de Arduino. Zo kunnen we de spanning op de analoge ingangen regelen tussen 0 en 5V doormiddel van het draaien aan de knoppen.
 
