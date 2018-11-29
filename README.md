@@ -33,3 +33,5 @@ Het programma van de Arduino moet continu (loop) de waarde van de draaiknoppen i
 
 # Audio
 Quinten's prikkel-gecontroleerde ruimte heeft de mogelijkheid om via bluetooth een geluidsbron (vb. een IPad) aan te sluiten. We deden dit doormiddel van een Bluetooth audio adapter, verbonden met een audioversterker (MAX9744) en luidsprekers.
+
+![in progress](./images/2018-07-27 10.32.41.jpg)
